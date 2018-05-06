@@ -1,0 +1,58 @@
+.hide {
+  opacity: 0;
+  visibility: hidden;
+  transition-duration: 0.2s;
+}
+
+.show {
+  opacity: 1;
+  visibility: visible;
+  transition-duration: 0.3s;
+}
+
+.menusymbol {
+  position: absolute;
+  top: 6px;
+  right: 28px;
+  font-size: 2.8rem;
+}
+
+ul {
+  position: absolute;
+  top: 5px;
+  display: flex;
+  height: 50px;
+  margin: 0;
+  padding-left: 25px;
+  justify-content: flex-start;
+  align-items: center;
+  transition-duration: 1s;
+  z-index: 1;
+}
+
+ul a {
+  color: #000;
+  position: relative;
+  text-decoration: none;
+}
+
+.closeBtn {
+  top: -3px;
+  font-size: 2rem;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.closeBtn:hover {
+  transform: scale(1.1);
+}
+
+li {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 70px;
+  margin-right: 0px;
+  list-style-type: none;
+  position: relative;
+}
